@@ -55,9 +55,9 @@ outputMessage("Starting Bruteforce Software...", 0)
 
 #Spawn Threads
 outputMessage("Spawning Threads...", 0)
+outputMessage("Happy Hunting :)", 0)
 for i in range(10):
     thread = threading.Thread(target=bruteForce, args=((i * 1000), i,))
     thread.start()
     thread.join() #Cry - Bandit doesn't allow multiple threads
     
-outputMessage("Happy Hunting :)", 0)
