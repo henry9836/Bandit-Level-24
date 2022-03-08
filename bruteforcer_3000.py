@@ -46,6 +46,7 @@ def bruteForce(startIndex, id):
             exit(0)
 
     outputMessage("THREAD " + str(id) + " END", 0)
+    
 ############
 ### MAIN ###
 ############
