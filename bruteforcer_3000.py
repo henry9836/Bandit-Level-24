@@ -9,7 +9,7 @@ from time import sleep
 HOST = "127.0.0.1"
 PORT = 30002
 BUFFERSIZE = 2048
-PASS = "UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ"
+PASS = "" # Input password for user
 
 #Types 0 - Normal, 1 - Warning, 2 - Success
 def outputMessage(msg, type):
